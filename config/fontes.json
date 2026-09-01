@@ -1,0 +1,15 @@
+{
+  "projeto": "ANEEL - DEC/FEC + causas das interrupções",
+  "fonte_oficial": "https://dadosabertos.aneel.gov.br/",
+  "datasets": {
+    "continuidade": {
+      "slug": "indicadores-coletivos-de-continuidade-dec-e-fec",
+      "descricao": "Indicadores coletivos DEC/FEC, limites, atributos e compensações"
+    },
+    "interrupcoes": {
+      "slug": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
+      "descricao": "Eventos de interrupção e fatos geradores"
+    }
+  },
+  "release_tag_padrao": "v1.0-dados"
+}
