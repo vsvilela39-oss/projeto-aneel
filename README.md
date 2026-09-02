@@ -136,18 +136,8 @@ O histórico recente de DEC, FEC e interrupções pode ser utilizado para prever
 
 ---
 
-## Análise das causas
 
-Os fatos geradores das interrupções foram normalizados e estruturados em uma hierarquia:
 
-```text
-Origem
-   ↓
-Programação
-   ↓
-Grupo da Causa
-   ↓
-Causa Detalhada
 
 ## Estratégia GitHub
 O repositório guarda código, notebooks, documentação e configuração. Parquets grandes devem ser publicados em **GitHub Releases**, não diretamente no Git.
