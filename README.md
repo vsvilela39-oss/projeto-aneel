@@ -161,7 +161,7 @@ projeto-aneel/
 ## Colab
 
 ```python
-!git clone https://github.com/SEU_USUARIO/projeto-aneel.git
+!git clone https://github.com/vsvilela39-oss/projeto-aneel.git
 %cd projeto-aneel
 !pip install -r requirements.txt
 ```
@@ -173,4 +173,27 @@ from src.processar_aneel_colab_github import main
 resultado = main(anos_interrupcoes=[2024, 2025])
 ```
 
-Depois publique os Parquets gerados em uma GitHub Release `v1.0-dados`.
+## Dashboard Power BI
+
+O relatório será dividido em três páginas:
+
+### 1. Visão Executiva de Continuidade
+- DEC e FEC
+- limites regulatórios
+- transgressões
+- evolução temporal
+- conjuntos críticos
+
+### 2. Diagnóstico das Interrupções
+- quantidade e duração das interrupções
+- grupos de causa
+- causas detalhadas
+- interrupções programadas e não programadas
+- análise temporal
+
+### 3. Risco e Predição
+- probabilidade de transgressão
+- conjuntos de alto risco
+- métricas do modelo
+- fatores mais relevantes
+- recomendações de priorização
